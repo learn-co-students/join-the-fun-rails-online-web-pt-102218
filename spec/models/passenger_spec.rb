@@ -13,6 +13,7 @@ describe Passenger do
   end
 
   it 'has many rides' do
+
     ride = Ride.create
 
     passenger.rides << ride
